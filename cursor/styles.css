@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('c:/Users/RDBMS-28/Desktop/kavin/cursor/11 (1).jpg'); /* Add this line */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+header {
+    text-align: center;
+    
+    font-family: "Lucida Console", Monaco, monospace;
+    /*padding: 1px;
+    /*background-color: rgba(51, 51, 51, 0.8); /* Added transparency to make text more readable */
+    color: white;
+}
+header p{
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.character {
+    text-align: center;
+}
+
+.character img {
+    width: 500px;  /* Adjusted size for the single image */
+    height: auto;   /* Height auto to keep the image's aspect ratio */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+footer p {
+    font-family: "Century Gothic", "Lucida Sans", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 1px;
+    /*background-color: rgba(51, 51, 51, 0.8); /* Added transparency to make text more readable */
+    color: white;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
